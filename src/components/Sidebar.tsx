@@ -3,6 +3,7 @@ import {
   Building2,
   LayoutDashboard,
   Truck,
+  UserRound,
 } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
@@ -12,6 +13,11 @@ const menuItems = [
     path: '/',
     icon: LayoutDashboard,
   },
+  {
+  label: 'Driver View',
+  path: '/driver',
+  icon: UserRound,
+},
   {
   label: 'Client View',
   path: '/client',

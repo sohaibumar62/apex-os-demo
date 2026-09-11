@@ -10,7 +10,7 @@ import ClientPortal from './pages/ClientPortal';
 import Dashboard from './pages/Dashboard';
 import Dispatches from './pages/Dispatches';
 import DispatchDetails from './pages/DispatchDetails';
-
+import DriverPortal from './pages/DriverPortal';
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +33,10 @@ function App() {
 
               />
               <Route
+                path="/driver"
+                element={<DriverPortal />}
+              />  
+              <Route          
                 path="/client"
                 element={<ClientPortal />}
               />
